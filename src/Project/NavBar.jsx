@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  let [menu, setMenu] = useState(false);
   return (
-    <nav className="flex justify-between sm:mx-[80px] mx-[20px] items-center h-[70px] border border-b-[#E6E6E6] border-t-0 border-l-0 border-r-0 font-manrope">
+    <nav className="flex justify-between sm:mx-[80px] mx-[20px] items-center h-[70px] border-2 border-b-[#E6E6E6] border-t-0 border-l-0 border-r-0 font-manrope">
       <div>
         <h1 className="font-extrabold">Nexorith Nepal</h1>
       </div>
-      <ul className="sm:inline-flex gap-[20px] font-[400] hidden ">
+      <ul className="sm:inline-flex gap-[20px] font-[400] hidden transition-all ease-linear ">
         <li className="relative">
           <NavLink
             to="/"
