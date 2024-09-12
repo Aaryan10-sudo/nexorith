@@ -9,10 +9,30 @@ const NavBar = () => {
         <h1 className="font-extrabold">Nexorith Nepal</h1>
       </div>
       <ul className="sm:inline-flex gap-[20px] font-[400] hidden ">
-        <li>Home</li>
-        <li>Investment plan</li>
-        <li>Project</li>
-        <li>About us</li>
+        <li className="relative">
+          <NavLink
+            to="/"
+            className="border-b-[4px] border-b-transparent  box-border focus:border-b-[#6864F9] active:border-b-[#6864F9] pb-[23px]"
+          >
+            Home
+          </NavLink>
+        </li>
+
+        <li className="relative">
+          <NavLink className="border-b-[4px] border-b-transparent  box-border focus:border-b-[#6864F9] active:border-b-[#6864F9] pb-[23px]">
+            Investment plan
+          </NavLink>
+        </li>
+        <li className="relative">
+          <NavLink className="border-b-[4px] border-b-transparent  box-border focus:border-b-[#6864F9] active:border-b-[#6864F9] pb-[23px]">
+            Project
+          </NavLink>
+        </li>
+        <li className="relative">
+          <NavLink className="border-b-[4px] border-b-transparent  box-border focus:border-b-[#6864F9] active:border-b-[#6864F9] pb-[23px]">
+            About us
+          </NavLink>
+        </li>
       </ul>
       <div className="sm:flex gap-[15px] hidden">
         <NavLink className="text-[#282828] border-2 border-transparent h-[27px] w-[50px] text-center rounded-sm font-[500] ">

@@ -34,12 +34,12 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="bg-[#DDDDDD] h-[330px] w-[738px] transform -rotate-12 relative rounded-tl-[15px] rounded-bl-[30px] sm:left-[90px] left-[20px] top-[40px] -skew-x-12">
-          <div className="h-[250px] border-[3px] border-l-white border-b-white border-t-0 rounded-bl-[50px] ml-[120px]"></div>
+        <div className="bg-[#DDDDDD] h-[330px] sm:w-[600px] w-[405px] ml-[20px] transform relative rounded-tl-[15px] rounded-bl-[30px] sm:m-0 top-[50px] -skew-y-12">
+          <div className="h-[250px] border-[3px] border-l-white border-b-white border-t-0 border-r-0 rounded-bl-[50px] ml-[120px]"></div>
         </div>
       </div>
       <center>
-        <div className="flex flex-col sm:h-[150px] h-[170px] w-[300px] bg-[white] relative sm:top-[-50px] top-[50px] rounded-xl drop-shadow-2xl p-[20px]">
+        <div className="flex flex-col sm:h-[150px] h-[170px] w-[300px] bg-[white] relative sm:top-[0px] top-[50px] rounded-xl drop-shadow-2xl p-[20px]">
           <div className=" bg-[#6864F9] h-[35px] w-[35px] rounded-full">
             <HiCash className="text-[30px] text-white" />
           </div>
