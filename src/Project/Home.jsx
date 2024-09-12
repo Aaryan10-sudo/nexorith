@@ -5,37 +5,41 @@ import { HiCash } from "react-icons/hi";
 const Home = () => {
   return (
     <>
-      <div className="flex mt-[10px] justify-between">
+      <div className="sm:flex mt-[10px] justify-between">
         <div className=" ">
-          <h1 className="ml-[75px] mt-[20px] font-[400] text-[50px] font-sora">
-            We are providing <br />a full services of strategic
+          <h1 className="sm:ml-[75px] mx-[20px] mt-[20px] sm:font-[400] text-[50px] font-sora font-extrabold">
+            We are providing <br />a{" "}
+            <span className="underline decoration-green-400 decoration-[15px] underline-offset-[1px]">
+              full services
+            </span>{" "}
+            of strategic
           </h1>
           <br />
-          <p className="ml-[75px] text-[20px] font-manrope">
+          <p className="sm:ml-[75px] mx-[20px] text-[20px] font-manrope">
             We are Investment company, whose team is working on making <br />
             money from the volatility of cryptocurrency and other great returns
             to our clients.
           </p>
           <br />
-          <div className="flex gap-[27px]">
-            <button className="bg-[#6864F9] h-[39px] w-[100px] ml-[75px] text-white">
+          <div className="flex sm:gap-[27px] gap-[30px]">
+            <button className="bg-[#6864F9] sm:h-[39px] sm:w-[100px] h-[50px] w-[150px] sm:ml-[75px] ml-[20px] text-white rounded-lg">
               Register
             </button>
-            <div className="flex items-center text-white bg-[#6864F9] w-[39px] h-[39px] text-center justify-center rounded-full">
+            <div className="flex items-center text-white bg-[#6864F9] sm:w-[39px] sm:h-[39px] w-[50px] h-[50px] text-center justify-center rounded-full">
               <FaPlay />
             </div>
-            <span className="text-[#6864F9] h-[39px] text-center mt-[10px] ml-[-15px]">
+            <span className="text-[#6864F9] h-[39px] text-center sm:mt-[10px] mt-[15px] ml-[-15px]">
               Watch video
             </span>
           </div>
         </div>
 
-        <div className="bg-[#DDDDDD] h-[330px] w-[738px] transform -rotate-12 relative rounded-tl-[10px] rounded-bl-[20px] left-[90px] top-[40px] -skew-x-12">
+        <div className="bg-[#DDDDDD] h-[330px] w-[738px] transform -rotate-12 relative rounded-tl-[15px] rounded-bl-[30px] sm:left-[90px] left-[20px] top-[40px] -skew-x-12">
           <div className="h-[250px] border-[3px] border-l-white border-b-white border-t-0 rounded-bl-[50px] ml-[120px]"></div>
         </div>
       </div>
       <center>
-        <div className="flex flex-col h-[150px] w-[300px] bg-[white] relative top-[-50px] rounded-xl drop-shadow-2xl p-[20px]">
+        <div className="flex flex-col sm:h-[150px] h-[170px] w-[300px] bg-[white] relative sm:top-[-50px] top-[50px] rounded-xl drop-shadow-2xl p-[20px]">
           <div className=" bg-[#6864F9] h-[35px] w-[35px] rounded-full">
             <HiCash className="text-[30px] text-white" />
           </div>
